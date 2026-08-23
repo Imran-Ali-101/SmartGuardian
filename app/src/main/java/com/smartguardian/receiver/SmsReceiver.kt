@@ -12,6 +12,7 @@ import com.smartguardian.data.RuleEntity
 import com.smartguardian.utils.LocationHelper
 import com.smartguardian.utils.SmsHelper
 import com.smartguardian.utils.TelegramHelper
+import com.smartguardian.service.SirenService
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
