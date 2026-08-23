@@ -6,7 +6,6 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.smartguardian.databinding.ActivityMainBinding
-import com.smartguardian.ui.addrule.AddRuleActivity
 import com.smartguardian.ui.onboarding.OnboardingActivity
 import com.smartguardian.ui.settings.SettingsActivity
 import com.smartguardian.utils.PermissionHelper
@@ -34,11 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         // Permission check on every open
         checkPermissionsOnResume()
-
-        // Add New Rule button
-        binding.btnAddRule.setOnClickListener {
-            startActivity(Intent(this, AddRuleActivity::class.java))
-        }
     }
 
     override fun onResume() {
