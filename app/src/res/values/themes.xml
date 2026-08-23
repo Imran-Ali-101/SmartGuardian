@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SmartGuardian" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_blue</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Theme.SmartGuardian.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/bg_dark</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Card -->
+    <style name="Theme.SmartGuardian.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/bg_card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Primary Button -->
+    <style name="Theme.SmartGuardian.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/btn_primary</item>
+        <item name="android:textColor">@color/btn_primary_text</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Secondary Button -->
+    <style name="Theme.SmartGuardian.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="strokeColor">@color/bg_card_stroke</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="Theme.SmartGuardian.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/bg_card</item>
+        <item name="boxStrokeColor">@color/bg_card_stroke</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tile-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/varsity_mode"
+    android:icon="@drawable/ic_vibrate"
+    android:label="@string/varsity_mode" />

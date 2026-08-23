@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Guardian</string>
+    <string name="add_new_rule">+ Add New Rule</string>
+    <string name="settings">Settings</string>
+    <string name="about_app">About App</string>
+    <string name="save_rule">+ Save Rule</string>
+    <string name="save_tracking_rule">+ Save Tracking Rule</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="varsity_mode">Varsity Mode</string>
+    <string name="siren_alarm">Siren Alarm</string>
+    <string name="location_tracking">Location Tracking</string>
+    <string name="sms_trigger_keyword">SMS Trigger Keyword</string>
+    <string name="bot_token">Bot Token</string>
+    <string name="fallback_number">Fallback Phone Number</string>
+    <string name="siren_sound">Siren Sound</string>
+    <string name="volume_control">Volume Control</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="fix_now">Fix Now</string>
+    <string name="later">Later</string>
+</resources>
