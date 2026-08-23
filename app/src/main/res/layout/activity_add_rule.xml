@@ -394,7 +394,6 @@
         android:textSize="15sp"
         android:textStyle="bold"
         style="@style/Theme.SmartGuardian.Button.Primary"
-        app:layout_anchor="@id/coordinator"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="24dp" />
 
