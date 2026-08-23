@@ -9,6 +9,8 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.smartguardian.databinding.FragmentHomeBinding
 import com.smartguardian.data.RuleEntity
+import android.content.Intent
+import com.smartguardian.ui.addrule.AddRuleActivity
 
 class HomeFragment : Fragment() {
 
@@ -43,6 +45,9 @@ class HomeFragment : Fragment() {
             adapter = ruleAdapter
         }
 
+        binding.btnAddRule.setOnClickListener {
+            startActivity(Intent(requireContext(), AddRuleActivity::class.java))
+        }
         // TODO: ViewModel observe করে list update করব
     }
 
